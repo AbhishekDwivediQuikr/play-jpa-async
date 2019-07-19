@@ -20,6 +20,7 @@ import play.mvc.Result;
 import play.mvc.Results;
 import scala.concurrent.ExecutionContext;
 import scala.concurrent.Promise;
+import service.EmpServiceInterface;
 import service.empservice;
 
 import javax.inject.Inject;
@@ -67,7 +68,7 @@ public class PersonController extends Controller {
     }
 
     @Inject
-    empservice service;
+    EmpServiceInterface service;
 
 
     public CompletionStage<Result> addPerson(final Http.Request request) throws Exception {

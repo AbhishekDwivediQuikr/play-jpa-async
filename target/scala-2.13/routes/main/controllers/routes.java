@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/conf/routes
-// @DATE:Fri Jul 19 15:23:17 IST 2019
+// @DATE:Fri Jul 19 15:52:28 IST 2019
 
 package controllers;
 
