@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+
+POST    /person                     controllers.PersonController.addPerson(req: Request)
+GET     /show                       controllers.PersonController.showPerson(id: java.lang.Long)
+GET     /delete                       controllers.PersonController.deletePerson(id: java.lang.Long)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
