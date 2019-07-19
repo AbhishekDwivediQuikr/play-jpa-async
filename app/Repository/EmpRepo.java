@@ -16,7 +16,7 @@ public class EmpRepo {
 
     public void save(Vehicle vehicle, EntityManager manager) {
         manager.persist(vehicle);
-        throw new NullPointerException();
+        //throw new NullPointerException();
     }
 
     public void savePerson(Person person, EntityManager manager) {

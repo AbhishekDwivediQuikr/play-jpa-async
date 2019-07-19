@@ -59,7 +59,7 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-07-19T15:52:29.263
+                  DATE: 2019-07-19T17:04:36.504
                   SOURCE: /Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/app/views/main.scala.html
                   HASH: 2619d17b8f5355a3a8808326add1e0668efb8408
                   MATRIX: 952->1|1076->32|1103->33|1180->84|1205->89|1298->156|1312->162|1364->194|1415->219|1429->225|1494->270|1588->337|1616->344|1648->349

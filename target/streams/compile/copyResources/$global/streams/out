@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/conf/application.conf,/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/target/scala-2.13/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/conf/logback.xml,/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/target/scala-2.13/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/conf/META-INF,/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/target/scala-2.13/classes/META-INF)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/conf/META-INF/persistence.xml,/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/target/scala-2.13/classes/META-INF/persistence.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/conf/routes,/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/target/scala-2.13/classes/routes)[0m
