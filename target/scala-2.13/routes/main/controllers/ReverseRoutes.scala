@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/abhishekkumardwivedi/Documents/play-samples-play-java-jpa-example/conf/routes
-// @DATE:Tue Jul 16 11:30:09 IST 2019
+// @DATE:Fri Jul 19 15:23:17 IST 2019
 
 import play.api.mvc.Call
 

@@ -20,7 +20,9 @@ import java.util.List;
 
 import static play.mvc.Results.ok;
 
-public class empservice {
+public class empservice implements EmpServiceInterface {
+
+
 
     @Inject
     EmpRepo empRepo;
@@ -42,6 +44,7 @@ public class empservice {
         empRepo.save(vehicle, entityManager);
     }
 
+    @Override
     public JsonNode savePerson(JsonNode jsonNode) throws Exception {
 
         ObjectNode node = Json.newObject();
@@ -79,20 +82,15 @@ public class empservice {
             return jsonNode1;
             //return "error";
         }
-
-
         node.put("status","ok");
         jsonNode1 = (JsonNode) new ObjectMapper().readTree(node.toString());
 
-        return node;
-
-       // return ok(jsonNode1);
-        //return "Done";
-
+        return jsonNode1;
 
     }
 
 
+    @Override
     public JsonNode showPerson(Long id) throws Exception {
 
         ObjectNode node = Json.newObject();
@@ -118,6 +116,8 @@ public class empservice {
 
     }
 
+
+    @Override
     public JsonNode deletePerson(Long id) throws Exception{
 
         ObjectNode node = Json.newObject();

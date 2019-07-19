@@ -1,11 +1,13 @@
-2019-07-19 13:06:13,189 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:mysql://localhost/reward_sys
-2019-07-19 13:06:13,206 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
-2019-07-19 13:06:13,293 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-2 - datasource [default] bound to JNDI as DefaultDS
-2019-07-19 13:06:18,044 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-07-19 15:23:43,208 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] initialized at jdbc:mysql://localhost/reward_sys
+2019-07-19 15:23:43,230 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2019-07-19 15:23:43,309 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-3 - datasource [default] bound to JNDI as DefaultDS
+2019-07-19 15:23:46,381 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-07-19 13:06:18,129 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
-2019-07-19 13:06:18,856 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2019-07-19 13:06:18,859 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-19 15:23:46,509 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev) (no global state)
+2019-07-19 15:23:47,010 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-2 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-19 15:23:47,012 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-2 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-19 15:23:58,749 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-shutdown-hook-1 - Stopping server...
+2019-07-19 15:23:58,790 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.

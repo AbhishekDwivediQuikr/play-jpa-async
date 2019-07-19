@@ -4,7 +4,7 @@
 		module="play-java-jpa-example_2.13"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190719124043"
+		publication="20190719152251"
 	>
 		<description>
 		play-java-jpa-example
